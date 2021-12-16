@@ -9,7 +9,7 @@ public class EqualSides {
             int index;
             int sumLeft;
             int sumRight;
-            index = 0;
+            index = -1;
             while (index++ < arr.length - 1) {
                 sumLeft = sumRight = 0;
                 for (int i = 0; i < index; i++) sumLeft += arr[i];
